@@ -114,19 +114,3 @@ void remove()
 	}
 
 }
-
-void exibirElementos()
-{
-	if (inicio == NULL) {
-		cout << "Lista vazia \n";
-		return;
-	}
-	else {
-		cout << "Elementos: \n";
-		NO* aux = inicio;
-		while (aux != NULL) {
-			cout << aux->valor << endl;
-			aux = aux->prox;
-		}
-	}
-}
